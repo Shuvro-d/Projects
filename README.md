@@ -15,3 +15,4 @@ In this project I tried to segment the lung from CT images. The data set has alm
 
 Similar to the other projects UNET architecture is used for semantic segmentation. But here I also implemented autoencoder. Then I compared the outputs between two trained models. Where the first model is trained with pre-trained weights. Auto encoder is used for pre-training. Then the pre-trained weight is used for the UNET models training. The other model is Trained with random weight just like the other semantic segmentation project. We can see how the IOU increased with the pre-trained weights.
 The images for the dataset were provided by my thesis supervisor and the masks were created using label-studio. 
+dataset: https://drive.google.com/drive/folders/1U8b-nHynpibcGAO6u2YRqL9fRxpyixUl?usp=sharing
