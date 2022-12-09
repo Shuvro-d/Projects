@@ -81,8 +81,8 @@ def run(
         dnn=False,  # use OpenCV DNN for ONNX inference
         vid_stride=1,  # video frame-rate stride
 ):
-    source1=source+'/stone'
-    source2=source+'/normal'
+    source1=source+'/positive'
+    source2=source+'/negative'
     source1 = str(source1)
     source2 = str(source2)
 
