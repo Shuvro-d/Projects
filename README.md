@@ -19,14 +19,33 @@ https://github.com/ultralytics/yolov5
 https://github.com/WongKinYiu/yolov7
 
 
+
+
+
+
+
+
 ->Lung segmentation: 
 
 In this project I tried to segment the lung from x-ray chest images. The data set has almost 600 x-ray images  and corresponding masks. UNET architecture is used for sematic segmentation. dataset: https://academictorrents.com/details/ac786f74878a5775c81d490b23842fd4736bfe33
 
 
+
+
+
+
+
+
 ->Kidney segmentation:
 
 In this project I tried to segment the lung from CT images. The data set has almost 1600 CT images  and corresponding masks. The CT images are collected from https://github.com/Shuvro-d/Kidney_stone_detection/tree/main/Dataset  . To create the masks I used label-studio. UNET architecture has been used for semantic segmentation.
+
+
+
+
+
+
+
 
 ->Skull segmentation:
 
