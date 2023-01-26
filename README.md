@@ -51,3 +51,37 @@ In this project I tried to segment the lung from CT images. The data set has alm
 
 Similar to the other projects UNET architecture is used for semantic segmentation. But here I also implemented autoencoder. Then I compared the outputs between two trained models. Where the first model is trained with pre-trained weights. Auto encoder is used for pre-training. Then the pre-trained weight is used for the UNET models training. The other model is Trained with random weight just like the other semantic segmentation project. We can see how the IOU increased with the pre-trained weights.
 The images for the dataset were provided by my thesis supervisor and the masks were created using label-studio. 
+
+
+104->Brain Tumor segmentation using double U-Net
+
+In this project I just used double U-Net instead of regular U-Net to segment brain Tumor from MRI images. The dataset is downloaded from kaggle and it contains 3000 images and 3000 masks.
+
+
+
+105-107->Pre training U-Net with vgg, resnet and inception
+
+In this projects I used vgg, resnet and inception to pre-train the U-Net so that U-Net uses pre-trained weight in the encoder instead of random weight to increase the performance of the model. It is similar to autoencoder that I implemented in project 103.
+
+
+108->Comparison of vgg, resnet and inception
+
+In this project I compare the three backbones, how they improve the performance of the U-Net model. Instead of manually implementing I used segmentation-models library to call the models and evaluated which backbone is the best.
+
+
+109->Brain-Tumor classification
+
+In this project I used the Random-Forest algorithm to classify pituitary, meningioma and glioma tumor types.
+
+110->Classification of mri planes
+
+In this project I used the Random-Forest algorithm to classify axial, coronal and sagittal plane types.
+
+
+111-113->Random forest with backbones.
+
+Similar to U-net I used vgg, resnet and inception to extract features from images before training the random forest algorithm.
+
+114-115>Tea leaf disease detection using YOLO algorithm
+
+I used YOLOv5 and YOLOv7 to detect red spider, leaf rust, tea-mosquito bite, brown blight, black rot and white spot disease. The dataset was provided by my supervisor which was collected from malanichara tea garden, sylhet.
