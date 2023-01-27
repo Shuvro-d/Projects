@@ -85,3 +85,8 @@ Similar to U-net I used vgg, resnet and inception to extract features from image
 114-115>Tea leaf disease detection using YOLO algorithm
 
 I used YOLOv5 and YOLOv7 to detect red spider, leaf rust, tea-mosquito bite, brown blight, black rot and white spot disease. The dataset was provided by my supervisor which was collected from malanichara tea garden, sylhet.
+
+
+116-> Classification with xgboost
+
+In this project I classified brain tumor using xgboost. Similar to random forest.
